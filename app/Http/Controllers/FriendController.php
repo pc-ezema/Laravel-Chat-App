@@ -26,8 +26,8 @@ class FriendController extends Controller
     }
 
 
-    public function find (Request $request) {
-        
+    public function find (Request $request)
+    {
         $data = User::where('id', $request->id)->first(['id', 'name', 'email', 'photo']);
 
         if ($data) {

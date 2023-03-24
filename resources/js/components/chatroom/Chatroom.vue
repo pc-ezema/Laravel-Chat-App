@@ -252,8 +252,6 @@
         </div>
       </section>
       
-      
-
 
       <!-- RIGHT SECTION -->
 
@@ -605,7 +603,6 @@ export default {
       });
     },
     sendMessage () {
-
       if (!event.shiftKey && event.key == 'Enter') {
         // UNTUK SEMENTARA
         if (this.message == '' || this.message == null) {

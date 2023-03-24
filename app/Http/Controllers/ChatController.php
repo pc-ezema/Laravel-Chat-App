@@ -26,7 +26,8 @@ class ChatController extends Controller
     }
 
 
-    public function startChat (Request $request) {
+    public function startChat (Request $request) 
+    {
 
         if (Auth::user()->id == $request->id) {
             return ['error' => 'Cannot talk to yourself.'];

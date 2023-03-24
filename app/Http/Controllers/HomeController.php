@@ -91,7 +91,8 @@ class HomeController extends Controller
     }
 
 
-    public function fetchAllRecentChats () {
+    public function fetchAllRecentChats () 
+    {
 
         // prepare an array to contain all of the responses
         $result = [];
